@@ -1,0 +1,163 @@
+body{font-family: 'Ubuntu', sans-serif;}
+
+/* title */
+
+
+.intro{font-family: 'Montserrat', sans-serif;
+        size: 4rem;
+        line-height: 1.5;
+        color: white;
+        font-weight: bolder;
+        padding-bottom: 2 rem;
+    }
+.iphone{
+        transform:rotate(20deg);
+        width: 60%;
+        position: absolute;
+        margin-left: 12%;
+       
+}
+.container0{
+        padding: 3% 15% 3% 15%;
+    }
+.container1{
+        padding: 3% 15% 3% 15%;
+    }
+
+.navbar{
+     padding: 0 1rem 2.5rem 0;
+     color: white;
+
+}
+.nav-item{
+
+    padding-left: 18px;
+    padding-right: 18px;
+    color: white;
+    font-size: 1rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:2rem;
+}
+/* download buttons */
+
+
+.btn{
+    margin: 5% 3% 5% 0;
+}
+
+
+
+#title { 
+    background-color: #ff4c68;
+    padding-block-end: 10%;
+}
+
+/* FEATURE part */
+.container2{
+
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+}
+#features{
+    margin: auto auto auto auto;
+}
+.box{
+    text-align: center;
+    padding: 25px 5% 60px 5%;
+}
+.feature1{
+    margin: 70px auto 0 auto;
+   
+}
+.feature2{
+
+    margin: 70px auto 0 auto;
+    
+}
+
+.feature3{
+    margin: 70px auto 0 auto;
+}
+ .fas{
+   color: #ff4c68;
+   
+ }
+
+ .fas:hover{color: teal;}
+ h3{
+     color:grey;
+ }
+
+ /* TESTIMONIALS */
+ #testimonials{
+    
+     background-color: #ef8172;
+     text-align: center;
+     color: #fff;
+     
+ }
+ .testimonial-text{
+     font-weight: bolder;
+     font-size: 2rem;
+     padding-inline-start: 20%;
+
+ }
+ .testimonial-image{
+     width: 10%;
+     border-radius: 100%;
+     margin: 10% 0;
+ }
+ .carousel-item{
+
+    padding: 7% 15%;
+
+ }
+
+
+
+ /* press */
+
+ #press{
+     text-align: center;
+     background-color: #ef8172;
+     padding-bottom: 3%;
+ }
+ .press-logo{
+     width:10%;
+ }
+ #pricing{
+     padding:100px;
+     text-align: center;
+ }
+ .pricing-header{
+     text-align: center;
+ }
+ .card-col{
+     padding:3% 2%;
+ }
+
+
+
+
+
+ @media(max-width:800px){
+     
+   .iphone{ transform:rotate(0deg);
+            position: relative;}
+   .container1{text-align: center;}
+
+ }
+ /*footer*/
+
+.cta{font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding:3%;}
+.footer{
+    background-color: #ef8172;
+    text-align: center;
+}
+#footer{text-align: center;
+  padding:5%}

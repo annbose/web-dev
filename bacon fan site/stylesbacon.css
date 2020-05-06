@@ -1,0 +1,18 @@
+/**********************TAG SELECTORS********************/
+
+h1{font-style: italic;
+  background-color: darkred;}
+
+
+
+
+
+
+/***************************CLASS SELECTORS****************/
+.bacon{background-color: burlywood;}
+.mango{background-color: cyan;}
+
+/*************************ID SELECTORS***********************/
+
+
+#heading{background-color: darkgreen;}

@@ -1,0 +1,106 @@
+/*********************** TAG SELECTORS*************************/
+
+body {
+    text-align: center;
+}
+
+h1 {
+    margin: 0 auto 0 auto;
+    font-size: 560%;
+    color: #08D9D6;
+    font-family: 'Parisienne', cursive;
+}
+h2{
+    color: #FF2E63;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+h3{
+    color: #FF2E63;
+}
+
+p{font-size: 1rem;
+    font-family: 'Patrick Hand', cursive;}
+
+
+/*****************************class selectors********************************/
+.bottom-bulb {
+    height: 40px;
+    width: auto;
+    position: absolute;
+    bottom: 200px;
+    left: 200px;
+}
+.top-bulb {
+    height: 40px;
+    width: auto;
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.mountain {
+    height: 250px;
+    width: auto;
+    position: absolute;
+    top: 350px;
+    left: 400px;
+}
+
+.skills{
+    width: 50%;
+    margin: 0 auto;
+    padding: 30 30 30 30;
+}
+.skill-row{
+    margin: auto;
+}
+
+.top-container{ 
+    background-color: #EAEAEA;
+    height: 500px;
+    width: 90%;
+    margin: 20px;
+    padding: 100px;
+    text-align: center;}
+
+.bolt{
+width: 20%;
+float: left;
+margin-right: 30px;
+}
+.webdev{
+width: 20%;
+float: left;
+margin-right: 30px;
+}
+
+
+
+/***************************id selectors**************************/
+
+
+#topcontainer {
+   
+}
+
+#middlecontainer {
+    background-color: #252A34;
+    height: 200px;
+    width: 200px;
+    margin-left: 260px;
+}
+
+#bottomcontainer {
+    background-color: #FF2E63;
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+}
+
+#lastcontainer {
+    background-color: #08D9D6;
+    height: 200px;
+    width: 200px;
+    margin-left: 700px
+}
